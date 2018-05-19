@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This XML file allows us to easily customize the visual aesthetics of the user interface. Note that this properties
+file is only for the standard high-level controls for an application, so it does not include properties meant for any
+functionality within the main workspace. -->
+<properties>
+    <property_list>
+        <!-- RESOURCE FILES AND FOLDERS -->
+        <property name="DATA_RESOURCE_PATH" value="data"/>
+        <property name="CSS_PATH" value="css/application.css"/>
+        <property name="USER_DIRECTORY" value="data-vilij/resources/data"/>
+        <!-- USER INTERFACE ICON FILES -->
+        <property name="SCREENSHOT_ICON" value="screenshot.png"/>
+        <property name="SETTINGS_ICON" value="settings.png"/>
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="SCREENSHOT_TOOLTIP" value="Screenshot"/> <!-- will print current view of image to a file -->
+
+        <!-- WARNING MESSAGES -->
+        <property name="EXIT_TITLE" value="Exit Application"/>
+        <property name="EXIT_WHILE_RUNNING_WARNING"
+                  value="An algorithm is running. Are you sure you want to exit?"/>
+
+        <!-- ERROR MESSAGES -->
+        <property name="DEFAULT_ERROR_TITLE" value="Error"/>
+        <property name="RESOURCE_SUBDIR_NOT_FOUND" value="Directory not found under resources."/>
+
+        <!-- APPLICATION-SPECIFIC MESSAGE TITLES -->
+        <property name="SAVE_UNSAVED_WORK_TITLE" value="Save Current Work"/>
+        <property name="INPUT_TITLE" value="Invalid input"/>
+        
+        <property name="CLEAR_INTERFACE_TITLE" value="Clear workspace"/>
+        <property name="SAVE_DIALOG_TITLE" value="Save file"/>
+        <property name="LOAD_DIALOG_TITLE" value="Load file"/>
+        <property name="SCREENSHOT_DIALOG_TITLE" value="Save data image"/>
+        <property name="DATA_DISPLAY_FAIL_TITLE" value="Display data"/>
+        
+        <property name="LOAD_MANY_LINES_DIALOG_TITLE" value="Loading data"/>
+        
+        <!-- APPLICATION-SPECIFIC MESSAGES -->
+        <property name="SAVE_UNSAVED_WORK" value="Would you like to save current work?"/>
+        <property name="INPUT" value="&#10;&#10;Data points are in the following format:&#10;@name label x,y
+                                            &#10;&#10;• Make sure each section is separated by a tab&#10;• Each data value is stored in a single line
+                                                    &#10;• Make sure there are no empty or incomplete data values&#10;• Every data point has a unique name"/>
+        
+        <property name="SAVE_FILE_ERROR" value="Error encountered while attempting to save file."/>
+        <property name="READ_DATA_FAIL" value="Display data before saving"/>
+        <property name="NEW_FILE_ERROR" value="Error encountered while attempting to create new file."/>
+        
+        <property name="CLEAR_INTERFACE_DESC" value="Are you sure you want to load new data? Any unsaved progress will be lost"/>
+        <property name="EXIT_APP_ERROR" value="Error encountered while attempting to close the application."/>
+        <property name="SCREENSHOT_FILE_ERROR" value="Error encountered while attempting create a screenshot"/>
+        <property name="SCREENSHOT_OUTPUT_ERROR" value="Failed to save screenshot because no output was specified"/> 
+        
+        <property name="LOADED_MANY_LINES_DESC_1" value= "Loaded data consists of "/>
+        <property name="LOADED_MANY_LINES_DESC_2" value= " lines. Showing only the first 10 in the text area."/>
+        
+        <!-- APPLICATION-SPECIFIC PARAMETERS -->
+        <property name="FONT" value="Arial"/>
+        
+        <property name="TEXTBOX_TITLE" value="Data file"/>
+        <property name="ALGORITHM_TYPES_TITLE" value= "Algorithm Types"/>
+        <property name="ALGORITHM_LIST_ID" value="list-heading"/>
+        
+        <property name="ALGORITHM_TITLE_ID" value="algoTitle"/>
+        <property name="SETTINGS_CSS_CLASS" value="settings-button"/>
+        
+        <property name="CLASSIFICATION" value="Classification"/>
+        <property name="CLASSIFICATION_ID" value="classification"/>
+        <property name="CLASSIFICATION_OPTION_ONE" value="Random Classification"/>
+        
+        
+        <property name="CLUSTERING" value="Clustering"/>
+        <property name="CLUSTERING_ID" value="clustering"/>
+        <property name="CLUSTERING_OPTION_ONE" value="Random Clustering"/>
+        
+        
+        <property name="DATA_FILE_EXT" value="*.tsd"/>
+        <property name="DATA_FILE_EXT_DESC" value="Tab-Separated Data File"/>
+        
+        <property name="SCREENSHOT_FILE_EXT" value="*.png"/>
+        
+        <property name="IMAGE_FILE_TYPE_NAME" value="PNG"/>
+        <property name="IMAGE_FILE_TYPE_PARAM" value="png"/>
+        
+        <property name="DEFAULT_FILE_NAME" value="Untitled"/>
+        <property name="TEXT_AREA" value="text area"/>
+        <property name="SPECIFIED_FILE" value=" specified file"/>
+        
+        <property name="DISPLAY_NAME" value="Display"/>
+        <property name="DONE_BUTTON_NAME" value="Done"/>
+        <property name="EDIT_BUTTON_NAME" value="Edit"/>
+        <property name="RUN_BUTTON_NAME" value="Run"/>
+        <property name="READ_ONLY" value="read-only data"/>
+        <property name="CHART_TITLE" value="Plot"/>
+        
+        <property name="INSTANCE_COUNT_INFO" value="Number of instances: "/>
+        <property name="LABEL_COUNT_INFO" value="Number of labels: "/>
+        <property name="LABEL_NAME_INFO" value="Label names:"/>
+        <property name="SOURCE_INFO" value="Source: "/>
+        
+        <property name="ALGO_SETTINGS_TITLE" value="Algorithm Run Configuration"/>
+        <property name="ITERATIONS_TITLE" value="Max. Iterations: "/>
+        <property name="INTERVALS_TITLE" value="Update Interval: "/>
+        
+        <property name="KMeansClusterer" value="K-Means Clustering"/>
+        <property name="RandomClassifier" value="Random Classification"/>
+        <property name="RandomClusterer" value="Random Clustering"/>
+    </property_list>
+    <property_options_list/>
+</properties>
